@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica;
+  }
+
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+
+  ul {
+    background-color: lightgray;
+    list-style: none;
+    display: flex;
+    height: 30px
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  li:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  li:hover {
+    color:red
+  }
+
+  .projects{ 
+    display: grid; 
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: max-content;
+    height: 200px;
+  }
+
+  h4 {
+    font: italic 16px/32px Georgia, serif;
+  }
+
+  h6 {
+    font: italic 12px/30px Georgia, serif;
+  }
+
+  #hs {
+    background-color: red;
+  }
